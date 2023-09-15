@@ -1,7 +1,7 @@
 name: location_on_path
 description: A starting point for Dart libraries or applications.
 version: 0.0.1
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/JacoNeto/location_on_path
 environment:
   sdk: ^3.1.0
 
