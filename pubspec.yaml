@@ -1,5 +1,5 @@
 name: location_on_path
-description: A starting point for Dart libraries or applications.
+description: Dart implementation of the bdccGeoDistanceAlgorithm
 version: 0.0.1
 repository: https://github.com/JacoNeto/location_on_path
 environment:
