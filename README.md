@@ -11,17 +11,12 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Dart implementation of the bdcc GeoDistanceAlgorithm. The algorithm calculates if a single coordinate is near a polyline path in a given radius. This can be used to detect when it is a good moment to recalculate a route in navigation.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+This package has the following method:
+* ```isLocationOnPathWithRadius(List<LatLng> polyline, LatLng point, int radius)``` returns ```true``` if the distance from ```point``` to ```polyline``` is at least ```radius``` meters, and ```false``` if it is not.
 
 ## Usage
 

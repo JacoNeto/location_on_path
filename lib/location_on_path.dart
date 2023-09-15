@@ -3,6 +3,6 @@
 /// More dartdocs go here.
 library;
 
-export 'src/location_on_path_base.dart';
+export 'package:latlong2/latlong.dart';
 
-// TODO: Export any libraries intended for clients of this package.
+export 'src/location_on_path_base.dart';
