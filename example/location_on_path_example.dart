@@ -9,8 +9,17 @@ void main() {
   ];
   // currentPosition
   LatLng currentPosition = LatLng(-5.20640492919849, -37.324122839780465);
+  //
+  bool isLocationOnPath =
+      isLocationOnPathWithRadius(ppoints, currentPosition, 20);
 
-  // shows in the console if the currentLocation is on the Given math in at
+  // shows in the console if the currentLocation is on the Given path in at
   // least 20 meters
-  print(isLocationOnPathWithRadius(ppoints, currentPosition, 20));
+  print(isLocationOnPath);
+
+  if (isLocationOnPathWithRadius(ppoints, currentPosition, 20)) {
+    //TODO continue
+  } else {
+    //TODO recalculates the route
+  }
 }
